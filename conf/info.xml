@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget version="0.2">
+	<title xml:lang="ko">일정 위젯</title>
+	<title xml:lang="en">Schedule Widget</title>
+	<description xml:lang="ko">스케줄 모듈에 의존하는 일정 위젯입니다. 오늘, 일주일, 한 달 일정을 설정에 따라 표시합니다.</description>
+	<description xml:lang="en">Schedule widget depends on Schedule module. View schedule of today, this week, or this month according to user settings.</description>
+	<version>1.0</version>
+	<date>2015-05-07</date>
+	<author email_address="misol.kr@gmail.com" link="https://github.com/misol">
+		<name xml:lang="ko">김민수(misol)</name>
+		<name xml:lang="en">MinSoo Kim(misol)</name>
+	</author>
+	<extra_vars>
+		<group>
+			<title xml:lang="ko">표시 대상 설정</title>
+			<title xml:lang="en">View targets</title>
+			<var id="map_draggable">
+				<type>select</type>
+				<name xml:lang="ko">표시할 일정 범위</name>
+				<name xml:lang="en">Schedule view range</name>
+				<description xml:lang="ko">정해진 범위의 일정 중 일정을 표시합니다.</description>
+				<description xml:lang="en">View schedule during the range of setting.</description>
+				<options default="true">
+					<value>today</value>
+					<name xml:lang="ko">오늘</name>
+					<name xml:lang="en">Today</name>
+				</options>
+				<options>
+					<value>thisweek</value>
+					<name xml:lang="ko">이번주</name>
+					<name xml:lang="en">This week</name>
+				</options>
+				<options>
+					<value>nextweek</value>
+					<name xml:lang="ko">다음주</name>
+					<name xml:lang="en">Next week</name>
+				</options>
+				<options>
+					<value>thismonth</value>
+					<name xml:lang="ko">이번달</name>
+					<name xml:lang="en">This month</name>
+				</options>
+				<options>
+					<value>nextmonth</value>
+					<name xml:lang="ko">다음달</name>
+					<name xml:lang="en">Next month</name>
+				</options>
+				<options>
+					<value>thisquarter</value>
+					<name xml:lang="ko">이번 사분기</name>
+					<name xml:lang="en">This quarter</name>
+				</options>
+				<options>
+					<value>nextquarter</value>
+					<name xml:lang="ko">다음 사분기</name>
+					<name xml:lang="en">Next quarter</name>
+				</options>
+				<options>
+					<value>thisyear</value>
+					<name xml:lang="ko">올해</name>
+					<name xml:lang="en">This year</name>
+				</options>
+				<options>
+					<value>nextyear</value>
+					<name xml:lang="ko">내년</name>
+					<name xml:lang="en">Next year</name>
+				</options>
+			</var>
+		</group>
+	</extra_vars>
+</widget>
